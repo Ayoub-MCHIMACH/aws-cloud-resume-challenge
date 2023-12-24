@@ -342,7 +342,7 @@ body {
 /* About
 --------------------------------------------------------------*/
 .about__content {
-  max-width: 50rem;
+  max-width: 30rem;
   margin: auto;
   margin-bottom: 2rem;
   text-align: center;
@@ -361,6 +361,7 @@ body {
   justify-self: center;
 }
 
+
 .skills__title {
   font-size: var(--fs-lg);
   text-align: center;
@@ -370,13 +371,15 @@ body {
 .skills__wrapper {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .skills__content {
   background-color: var(--color-bg-secondary);
   box-shadow: var(--box-shadow);
-  padding: 3rem;
+  padding: 2rem;
+  max-width: 250px;
+  min-width: 190px;
 }
 
 .skills__item {
